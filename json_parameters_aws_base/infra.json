@@ -1,0 +1,30 @@
+[
+  {
+    "ParameterKey": "ClusterName", 
+    "ParameterValue": "openshift" 
+  },
+  {
+    "ParameterKey": "InfrastructureName", 
+    "ParameterValue": "openshift-m26qf" 
+  },
+  {
+    "ParameterKey": "HostedZoneId", 
+    "ParameterValue": "Z21MGD5XPMOZBV" 
+  },
+  {
+    "ParameterKey": "HostedZoneName", 
+    "ParameterValue": "gluo.cloud" 
+  },
+  {
+    "ParameterKey": "PublicSubnets", 
+    "ParameterValue": "subnet-0b8ffaad712f6c111" 
+  },
+  {
+    "ParameterKey": "PrivateSubnets", 
+    "ParameterValue": "subnet-0085ec9b96196454f" 
+  },
+  {
+    "ParameterKey": "VpcId", 
+    "ParameterValue": "vpc-0187b30bc0bcfa889" 
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "ParameterKey": "InfrastructureName", 
+    "ParameterValue": "openshift-m26qf" 
+  },
+  {
+    "ParameterKey": "RhcosAmi", 
+    "ParameterValue": "ami-04370efd78434697b" 
+  },
+  {
+    "ParameterKey": "Subnet", 
+    "ParameterValue": "subnet-0085ec9b96196454f" 
+  },
+  {
+    "ParameterKey": "WorkerSecurityGroupId", 
+    "ParameterValue": "sg-0c3fa8c354abd4e0f" 
+  },
+  {
+    "ParameterKey": "IgnitionLocation", 
+    "ParameterValue": "https://api-int.openshift.gluo.cloud:22623/config/worker" 
+  },
+  {
+    "ParameterKey": "CertificateAuthorities", 
+    "ParameterValue": "data:text/plain;charset=utf-8;base64,LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSURFRENDQWZpZ0F3SUJBZ0lJQjdXK0QvYTRlQVF3RFFZSktvWklodmNOQVFFTEJRQXdKakVTTUJBR0ExVUUKQ3hNSmIzQmxibk5vYVdaME1SQXdEZ1lEVlFRREV3ZHliMjkwTFdOaE1CNFhEVEU1TVRFeE9URTBNekl4TTFvWApEVEk1TVRFeE5qRTBNekl4TTFvd0pqRVNNQkFHQTFVRUN4TUpiM0JsYm5Ob2FXWjBNUkF3RGdZRFZRUURFd2R5CmIyOTBMV05oTUlJQklqQU5CZ2txaGtpRzl3MEJBUUVGQUFPQ0FROEFNSUlCQ2dLQ0FRRUF6L01kcUxkV1pUWGwKd0JFblJyZ3NlSlorK1NkeFgvaDNFVnR2cDBoaEt2UEI0N3JraTN1dXRoaS94dGFhQUwwMFZLenVuWTU4NERVNAorZnVmVFZlRFM3d2JmOUU0YThESktlOHpDZ1J2dkNHeWxVL2hhaWRZOGVWOVpXeE5veHMvakpJLzRlQy9XZ2hTCndScDNjeHhIeTJ3bGswcWJGMHVIWk9jMzFPemxkZUdDWW16TXZxUjdLNnFNdW1zSnZ0eXNHTkwwV2VJNEE2QnIKMlB4NkRzUWMxZDRuNGZmNVVNNmpDNkFiR1lNSzNBVFpmdVc1dkQrTURMTkdOK0FJeFRoR291Nk5tbVdxeDh1aApuZzhEZVJwQXNjWlBXYVU3RWU5cDdGa0oxWGIycncvejB0R1RyY2VvejRoanhsQmlMcnpJSjVVQitnQ2VrbklwCjhiWXZVL01UMXdJREFRQUJvMEl3UURBT0JnTlZIUThCQWY4RUJBTUNBcVF3RHdZRFZSMFRBUUgvQkFVd0F3RUIKL3pBZEJnTlZIUTRFRmdRVVVETmkxVys1TzYvcUNvMyswM2kxWHNqRnMyNHdEUVlKS29aSWh2Y05BUUVMQlFBRApnZ0VCQUprMzBoT0VES3BNRURJdjlnaEtLUnFjYmpjYnV5RWpWZlN1SFlxT2xWYTF6Z2ZhaEhKWFpFMXlRS1FXCkFSSzZrb24wWVhCUm85cDA2ZGdYTTBHb3lySVZ5MTg1TzJDR1dzd0thMEhUYTNlaWhRTkRjcmxJV3JZaHFGU1gKUVJkU1d1bk1oZHMyRFFpSnFacjRWeFpSYzVwSG5ZT3BtK1lSRERxUFNnY1BuSEI2bGdWWVp0eXFoTnBKMTRjUwpRaitua0tPZXA0V2R5ckY3OEdkVHJSeVJIQW4xOEx6SVpDQm9zaUxzTlFvSnhBWDZwT3J0MGxOWlRna2hjd2ZLClBtRHZXNDJJYlE3b3E0U28zd3ZVVitjYXRrbUYvVCt4Zkd3Vk1oN0l3UUVoWGpEN0x5NTRGZmNJL0xNYy9QZ08KdmpPWVFMNnpSQnM2TjhPdmRFTGxBZ2RucHljPQotLS0tLUVORCBDRVJUSUZJQ0FURS0tLS0tCg==" 
+  },
+  {
+    "ParameterKey": "WorkerInstanceProfileName", 
+    "ParameterValue": "openshift-m26qf-sec-WorkerInstanceProfile-OQ4BES5D9SU4" 
+  },
+  {
+    "ParameterKey": "WorkerInstanceType", 
+    "ParameterValue": "m4.large" 
+  }
+]

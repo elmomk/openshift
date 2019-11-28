@@ -1,0 +1,18 @@
+[
+  {
+    "ParameterKey": "InfrastructureName", 
+    "ParameterValue": "openshift-dx6ml" 
+  },
+  {
+    "ParameterKey": "VpcCidr", 
+    "ParameterValue": "10.0.0.0/16" 
+  },
+  {
+    "ParameterKey": "PrivateSubnets", 
+    "ParameterValue": "subnet-01fb259c87295c6e0" 
+  },
+  {
+    "ParameterKey": "VpcId", 
+    "ParameterValue": "vpc-02c30b1a2c2553f20" 
+  }
+]

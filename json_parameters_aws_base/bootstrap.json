@@ -1,0 +1,50 @@
+[
+  {
+    "ParameterKey": "InfrastructureName", 
+    "ParameterValue": "openshift-m26qf" 
+  },
+  {
+    "ParameterKey": "RhcosAmi", 
+    "ParameterValue": "ami-04370efd78434697b" 
+  },
+  {
+    "ParameterKey": "AllowedBootstrapSshCidr", 
+    "ParameterValue": "0.0.0.0/0" 
+  },
+  {
+    "ParameterKey": "PublicSubnet", 
+    "ParameterValue": "subnet-0b8ffaad712f6c111" 
+  },
+  {
+    "ParameterKey": "MasterSecurityGroupId", 
+    "ParameterValue": "sg-09e076a98729d219a" 
+  },
+  {
+    "ParameterKey": "VpcId", 
+    "ParameterValue": "vpc-0187b30bc0bcfa889" 
+  },
+  {
+    "ParameterKey": "BootstrapIgnitionLocation", 
+    "ParameterValue": "s3://openshift-upi-infra/bootstrap.ign" 
+  },
+  {
+    "ParameterKey": "AutoRegisterELB", 
+    "ParameterValue": "yes" 
+  },
+  {
+    "ParameterKey": "RegisterNlbIpTargetsLambdaArn", 
+    "ParameterValue": "arn:aws:lambda:eu-west-1:119555522314:function:openshift-m26qf-infra-RegisterNlbIpTargets-1DYO6HVSDMFKK" 
+  },
+  {
+    "ParameterKey": "ExternalApiTargetGroupArn", 
+    "ParameterValue": "arn:aws:elasticloadbalancing:eu-west-1:119555522314:targetgroup/opens-Exter-QVDAWPRYM7RJ/d5b90da62720d129" 
+  },
+  {
+    "ParameterKey": "InternalApiTargetGroupArn", 
+    "ParameterValue": "arn:aws:elasticloadbalancing:eu-west-1:119555522314:targetgroup/opens-Inter-5POFD99CNGVF/5c8f4c946e961afa" 
+  },
+  {
+    "ParameterKey": "InternalServiceTargetGroupArn", 
+    "ParameterValue": "arn:aws:elasticloadbalancing:eu-west-1:119555522314:targetgroup/opens-Inter-LCA31MF4AFNI/7fc9ed83b6824bd9" 
+  }
+]

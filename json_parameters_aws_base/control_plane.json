@@ -1,0 +1,76 @@
+[
+  {
+    "ParameterKey": "InfrastructureName", 
+    "ParameterValue": "openshift-m26qf" 
+  },
+  {
+    "ParameterKey": "RhcosAmi", 
+    "ParameterValue": "ami-04370efd78434697b" 
+  },
+  {
+    "ParameterKey": "AutoRegisterDNS", 
+    "ParameterValue": "yes" 
+  },
+  {
+    "ParameterKey": "PrivateHostedZoneId", 
+    "ParameterValue": "Z04978331L873TN4KBUKE" 
+  },
+  {
+    "ParameterKey": "PrivateHostedZoneName", 
+    "ParameterValue": "openshift.gluo.cloud" 
+  },
+  {
+    "ParameterKey": "Master0Subnet", 
+    "ParameterValue": "subnet-0085ec9b96196454f" 
+  },
+  {
+    "ParameterKey": "Master1Subnet", 
+    "ParameterValue": "subnet-0085ec9b96196454f" 
+                
+  },
+  {
+    "ParameterKey": "Master2Subnet", 
+    "ParameterValue": "subnet-0085ec9b96196454f" 
+                
+  },
+  {
+    "ParameterKey": "MasterSecurityGroupId", 
+    "ParameterValue": "sg-09e076a98729d219a" 
+  },
+  {
+    "ParameterKey": "IgnitionLocation", 
+    "ParameterValue": "https://api-int.openshift.gluo.cloud:22623/config/master" 
+  },
+  {
+    "ParameterKey": "CertificateAuthorities", 
+    "ParameterValue": "data:text/plain;charset=utf-8;base64,LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSURFRENDQWZpZ0F3SUJBZ0lJQjdXK0QvYTRlQVF3RFFZSktvWklodmNOQVFFTEJRQXdKakVTTUJBR0ExVUUKQ3hNSmIzQmxibk5vYVdaME1SQXdEZ1lEVlFRREV3ZHliMjkwTFdOaE1CNFhEVEU1TVRFeE9URTBNekl4TTFvWApEVEk1TVRFeE5qRTBNekl4TTFvd0pqRVNNQkFHQTFVRUN4TUpiM0JsYm5Ob2FXWjBNUkF3RGdZRFZRUURFd2R5CmIyOTBMV05oTUlJQklqQU5CZ2txaGtpRzl3MEJBUUVGQUFPQ0FROEFNSUlCQ2dLQ0FRRUF6L01kcUxkV1pUWGwKd0JFblJyZ3NlSlorK1NkeFgvaDNFVnR2cDBoaEt2UEI0N3JraTN1dXRoaS94dGFhQUwwMFZLenVuWTU4NERVNAorZnVmVFZlRFM3d2JmOUU0YThESktlOHpDZ1J2dkNHeWxVL2hhaWRZOGVWOVpXeE5veHMvakpJLzRlQy9XZ2hTCndScDNjeHhIeTJ3bGswcWJGMHVIWk9jMzFPemxkZUdDWW16TXZxUjdLNnFNdW1zSnZ0eXNHTkwwV2VJNEE2QnIKMlB4NkRzUWMxZDRuNGZmNVVNNmpDNkFiR1lNSzNBVFpmdVc1dkQrTURMTkdOK0FJeFRoR291Nk5tbVdxeDh1aApuZzhEZVJwQXNjWlBXYVU3RWU5cDdGa0oxWGIycncvejB0R1RyY2VvejRoanhsQmlMcnpJSjVVQitnQ2VrbklwCjhiWXZVL01UMXdJREFRQUJvMEl3UURBT0JnTlZIUThCQWY4RUJBTUNBcVF3RHdZRFZSMFRBUUgvQkFVd0F3RUIKL3pBZEJnTlZIUTRFRmdRVVVETmkxVys1TzYvcUNvMyswM2kxWHNqRnMyNHdEUVlKS29aSWh2Y05BUUVMQlFBRApnZ0VCQUprMzBoT0VES3BNRURJdjlnaEtLUnFjYmpjYnV5RWpWZlN1SFlxT2xWYTF6Z2ZhaEhKWFpFMXlRS1FXCkFSSzZrb24wWVhCUm85cDA2ZGdYTTBHb3lySVZ5MTg1TzJDR1dzd0thMEhUYTNlaWhRTkRjcmxJV3JZaHFGU1gKUVJkU1d1bk1oZHMyRFFpSnFacjRWeFpSYzVwSG5ZT3BtK1lSRERxUFNnY1BuSEI2bGdWWVp0eXFoTnBKMTRjUwpRaitua0tPZXA0V2R5ckY3OEdkVHJSeVJIQW4xOEx6SVpDQm9zaUxzTlFvSnhBWDZwT3J0MGxOWlRna2hjd2ZLClBtRHZXNDJJYlE3b3E0U28zd3ZVVitjYXRrbUYvVCt4Zkd3Vk1oN0l3UUVoWGpEN0x5NTRGZmNJL0xNYy9QZ08KdmpPWVFMNnpSQnM2TjhPdmRFTGxBZ2RucHljPQotLS0tLUVORCBDRVJUSUZJQ0FURS0tLS0tCg=="
+  },
+  {
+    "ParameterKey": "MasterInstanceProfileName", 
+    "ParameterValue": "openshift-m26qf-sec-MasterInstanceProfile-Z8QKJI80471B"
+  },
+  {
+    "ParameterKey": "MasterInstanceType", 
+    "ParameterValue": "m4.xlarge" 
+  },
+  {
+    "ParameterKey": "AutoRegisterELB", 
+    "ParameterValue": "yes" 
+  },
+  {
+    "ParameterKey": "RegisterNlbIpTargetsLambdaArn", 
+    "ParameterValue": "arn:aws:lambda:eu-west-1:119555522314:function:openshift-m26qf-infra-RegisterNlbIpTargets-1DYO6HVSDMFKK" 
+  },
+  {
+    "ParameterKey": "ExternalApiTargetGroupArn", 
+    "ParameterValue": "arn:aws:elasticloadbalancing:eu-west-1:119555522314:targetgroup/opens-Exter-QVDAWPRYM7RJ/d5b90da62720d129"
+  },
+  {
+    "ParameterKey": "InternalApiTargetGroupArn", 
+    "ParameterValue": "arn:aws:elasticloadbalancing:eu-west-1:119555522314:targetgroup/opens-Inter-5POFD99CNGVF/5c8f4c946e961afa"
+  },
+  {
+    "ParameterKey": "InternalServiceTargetGroupArn", 
+    "ParameterValue": "arn:aws:elasticloadbalancing:eu-west-1:119555522314:targetgroup/opens-Inter-LCA31MF4AFNI/7fc9ed83b6824bd9" 
+  }
+]
